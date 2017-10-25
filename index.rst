@@ -5,20 +5,19 @@
 首页
 =====
 
-:Author: alpha1e0
-:Version: v1.0
-:Date: 2017-10-1
-:Copyright: Copyright ©2017 alpha1e0. All Rights Reserved. 
-:Note: 转载请注明出处。
-
-----
 
 1 技术文档分类
 ==============
 
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   it_tec/*
+
 
 2 其他文档
-=============
+==========
 
 .. toctree::
    :maxdepth: 1

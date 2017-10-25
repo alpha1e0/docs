@@ -29,9 +29,9 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinx.ext.imgmath',
-]
+#extensions = [
+#    'sphinx.ext.imgmath',
+#]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -141,8 +141,6 @@ html_theme_options = {
     "sidebartextcolor": "#333",
     "footerbgcolor": "#fff",
     "linkcolor": "#590915",
-    #"bodyfont": "helvetica, 'bitstream vera sans', sans-serif",
-    #"headfont": "georgia, 'bitstream vera sans serif', 'lucida grande', helvetica, verdana, sans-serif",
     "headbgcolor": "#fff",
     "headtextcolor": "#12347A",
     "codebgcolor": "#FFFFF7",

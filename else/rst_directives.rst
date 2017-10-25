@@ -6,22 +6,20 @@ reStructureText 快速参考手册
 ============================
 
 
-:Author: alpha1e0
 :Version: v1.0
 :Date: 2017-10-1
-:Copyright: Copyright ©2017 alpha1e0. All Rights Reserved. 
 :Note: 转载请注明出处。
-
-----
-
-.. contents:: 目录
-   :depth: 3
 
 ----
 
 .. topic:: 主题
 
     本文介绍 **reStructureText** 常用语法
+
+----
+
+.. contents:: 目录
+   :depth: 3
 
 ----
 

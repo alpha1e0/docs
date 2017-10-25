@@ -2,3 +2,4 @@
 /_static/*
 /_templates/*
 /track.md
+/publish.py
