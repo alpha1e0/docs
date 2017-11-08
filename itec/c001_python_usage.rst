@@ -1,9 +1,9 @@
 .. python 常用
 
 
-============
-python 常用
-============
+====================
+C001 - python 常用
+====================
 
 
 :Version: v1.0
@@ -14,7 +14,7 @@ python 常用
 
 .. topic:: 主题
 
-    本文介绍 **reStructureText** 常用语法，以 **python 2.x** 为主
+    本文介绍 **python** 常用用法，以 **python 2.x** 为主
 
 ----
 
@@ -27,8 +27,7 @@ python 常用
 1 字符串操作
 ==============
 
-1.1 基础
-----------
+**a. 基础**
 
 python 2.x 字符串类型：
 
@@ -42,8 +41,7 @@ python 2.x 字符串类型：
 
 python 3.x 字符串统一使用unicode
 
-1.2 常用方法
-------------
+**b. 常用方法**
 
 .. list-table:: 字符串常用操作
    :widths: 15 15 
@@ -75,8 +73,7 @@ python 3.x 字符串统一使用unicode
      - 字符串编解码
 
 
-1.3 字符串、数字、字节转换
-----------------------------
+**c. 字符串、数字、字节转换**
 
 常用转换： ::
 
@@ -93,8 +90,7 @@ unicode字节流转unicode对象 ::
     unicode对象 ==> codecs.raw_unicode_escape_encode(unicode对象)  ==> unicode字节流
 
 
-1.4 编码、解码
----------------
+**d. 编码、解码**
 
 python2.x 默认使用ascii字节流，使用str.decode后得到unicode，unicode进行encode得到字节流
 
@@ -133,8 +129,7 @@ python编码检测：需要第三方库 **chardet** ，例如 ::
     #-*-coding: utf-8 -*-
 
 
-1.5 其他编码
-------------
+**e.其他编码**
 
 url编码 ::
 
@@ -353,7 +348,7 @@ python types模块定义了所有类型，参考 `这里 <https://docs.python.or
     获取object的定义的源代码，以字符串|字符串列表返回。代码无法访问时会抛出IOError异常。只能用于     module/class/function/method/code/frame/traceack对象。
 
 ``getargspec(func)`` :
-    仅用于方法，获取方法声明的参数，返回元组，分别是(普通参数名的列表, *参数名, **参数名, 默认值元组)。如果没有值，将是空列表和3个None。如果是2.6以上版本，将返回一个命名元组(Named Tuple)，即除了索引外还可以使用属性名访问元组中的元素。 
+    仅用于方法，获取方法声明的参数，返回元组，分别是(普通参数名的列表, \*参数名, \*\*参数名, 默认值元组)。如果没有值，将是空列表和3个None。如果是2.6以上版本，将返回一个命名元组(Named Tuple)，即除了索引外还可以使用属性名访问元组中的元素。 
 
 inspect模块详见 `inspect官方手册 <https://docs.python.org/2/library/inspect.html#module-inspect>`_
 
